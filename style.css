@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+}
+#painel1{
+    /*width: 1525px;*/
+    background-color: #303030;
+    color: white;
+    font-family: "inter";
+    height: 450px;
+}
+#painel01-texto01{
+    font-size: 60px;
+    height: 72px;
+    padding: 180px 0px 0px 62px;
+    font-weight: 600
+}
+#painel01-texto02{
+    font-size: 20px;
+    height: 28px;
+    padding: 20px 0px 0px 62px;
+    font-weight: 600
+}
+#paniel02{
+    /*width: 1525px;*/
+    display: grid;
+    grid-auto-flow:column;
+    columns: auto;
+    background-color: #f9f9f9;
+    height: 230px;
+    display: flex;
+    align-items: center;
+
+}
+.paniel02-numeros{
+    font-family: "inter";    
+    font-size: 40px;
+    font-weight: 600; 
+    padding: 75px ;
+    margin: 0px 0px 0px 60px
+}
+.painel02-paragrafo{
+    font-family: "inter";
+    font-size: 20px;
+    line-height: 28px; 
+    font-weight: 400;
+}
+#painel03{    
+    /*width: 1525px;*/
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: "inter";
+    height: 660px;
+
+}
+#titulo-painel03{
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 250px 0px 0px 77px;
+}
+#texto-painel03{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 200;
+}
+#fotopainel03{
+    width: 450px;
+    height: 600px;
+    padding: 29px 0px 0px 190px;
+    border-radius: 30px;
+}
+#formulario{
+    /*width: 1525px;*/
+    text-align: center;
+    height: 638px;
+    background-color: #303030;
+}
+#titulo-formulario{
+    font-family: "inter";
+    color: #FFFFFF;
+    width: 900px;
+    font-size: 32px; 
+    padding: 70px 0px 0px 310px;
+    line-height: 150%;
+}
+input{
+    margin: 10px;
+    width: 460px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 50px 0px 0px 0px;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: #0000004D;
+    cursor: pointer;
+}
+button{
+    margin-top: 70px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    background-color: #C07212;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 2s;
+    box-shadow: 0px 15px 20px #736b32;
+    background-color:#bdc31e;
+}
